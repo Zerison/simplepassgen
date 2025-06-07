@@ -26,15 +26,11 @@ def generate_password(length):
     return password  
 
 print("Генератор паролей")
-a = int(input("Введите длину пароля(12-32):"))
+a = int(input("Введите длину пароля(>12):"))
 if a<12:
     print('Слишком короткий пароль - небезопасно!')
     print('Повторите попытку')
-    a = int(input("Введите длину пароля(12-32):"))
-if a>32:
-    print('Куда столько!')
-    print('Повторите попытку')
-    a = int(input("Введите длину пароля(12-32):"))
+    a = int(input("Введите длину пароля(>12):"))
 
 global password 
 password = generate_password(a)
@@ -61,7 +57,7 @@ while b!=4:
         else:
             print(f"Файл создан: {file_path}\n")
     elif b==3:
-        a = int(input("Введите длину пароля(12-32):"))
+        a = int(input("Введите длину пароля(>12):"))
         password = generate_password(a)
         print('\nНовый пароль сгенерирован\n')
     else:
