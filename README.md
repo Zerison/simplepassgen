@@ -5,6 +5,7 @@ Simple password generator with 4 options:
 3) Generate new password ( then everything repeats )
 4) Exit
 
-You can use it either for your school or college project or for personal use
+Also this code download and install required modules, so you can run it without preparations.
+You can use it either for your school or college project or for personal use.
 
 # FreeToCopy
