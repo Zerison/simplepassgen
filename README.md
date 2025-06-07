@@ -6,6 +6,6 @@ Simple password generator with 4 options:
 4) Exit
 
 Also this code download and install required modules, so it starts without any preparations.
-You can use it either for your school or college project or for personal use.
+This code is very primitive, that's why it approaches for school or college projects.
 
 # FreeToCopy
